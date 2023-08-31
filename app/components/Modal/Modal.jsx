@@ -40,7 +40,7 @@ const Modal = () => {
     <Shadow/>
 
 
-      {openModal ?    <div className="flex flex-col gap-3 items-center mt-40 p-2 rounded-md bg-[teal] w-[300px] h-auto z-50 ">
+      {openModal ?    <div className="flex flex-col gap-3 items-center mt-40 py-2 px-5 rounded-md bg-[teal] w-full md:w-[300px] h-auto z-50 ">
 
             <h1 >Үүнийг засна уу  <strong className="font-bold text-yellow-800"> "{getEditTaskValue}"</strong></h1>
 
