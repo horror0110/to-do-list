@@ -47,7 +47,7 @@ const Modal = () => {
 
      <input
        onChange={(e) => setModalItem(e.target.value)}
-       className="bg-mainColor rounded-md py-2 px-2 my-5 text-white placeholder:text-white"
+       className="bg-mainColor rounded-md w-auto py-2 px-2 my-5 text-white placeholder:text-white"
        type="text"
        placeholder="edit task"
        value={modalItem}
