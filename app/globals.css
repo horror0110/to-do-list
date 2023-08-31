@@ -4,6 +4,7 @@
 
 html , body , :root{
   height: 100%;
+  overflow-x:hidden
 }
 .overlay {
   background: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) , url("../public/images/background.jpg");
