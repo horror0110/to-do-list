@@ -160,8 +160,8 @@ const Home = () => {
       {goSpinner ? <Loading /> : null}
 
       <Modal />
-      <div className="flex md:flex-row flex-col justify-between w-[700px] mt-20 mb-6">
-        <h1 className="text-2xl  font-bold text-center md:text-normal">Хийх зүйлсийн жагсаалт</h1>
+      <div className="flex md:flex-row justify-center items-center md:justify-between w-[700px] mt-20 mb-6">
+        <h1 className="text-2xl  font-bold text-center md:text-normal mr-2 md:mr-0">Хийх зүйлсийн жагсаалт</h1>
         {mode === "light" ? (
           <HiLightBulb onClick={toggleMode} color="yellow" size={30} />
         ) : (
